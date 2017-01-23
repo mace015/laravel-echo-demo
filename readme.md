@@ -8,8 +8,8 @@ With this setup, you can use Laravel Echo without using, and thus being dependan
 
 In order to get this demo appication to work, use the following steps;
 
-    * Compile the app.js file with gulp => `gulp`.
     * Install all depancies with composer and NPM => `composer install && npm install`.
+    * Compile the app.js file with gulp => `gulp`.
     * Migrate the database => `php artisan migrate`.
     * Install laravel-echo-server => `npm install -g laravel-echo-server`.
     * Run the laravel-echo-server from the applications directory => `laravel-echo-server start`.
